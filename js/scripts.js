@@ -25,9 +25,3 @@ $(document).ready(function() {
     });
   });
 });
-
-/*$('#reset').on("submit", function() {
-
-  location.reload();
-
-});*/
