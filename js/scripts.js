@@ -17,10 +17,17 @@ function pingPong(inputedNum ) {
 $(document).ready(function() {
   $('#ping-pong-form').submit(function(event) {
     event.preventDefault();
-    var inputedNum = $('#goal').val();
+    var inputedNum = $('#userInput').val();
+
     var output = pingPong(inputedNum );
     output.forEach(function(element) {
-      $('#solution').append("<li>" + element + "</li>");
+      $('#output').append("<li>" + element + "</li>");
     });
   });
 });
+
+/*$('#reset').on("submit", function() {
+
+  location.reload();
+
+});*/

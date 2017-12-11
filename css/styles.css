@@ -1,14 +1,20 @@
 div.container {
     width: 100%;
     border: 1px solid gray;
+    background-color: #4CAF50;
+    font-size: 16px;
+
 }
 
-header, footer {
-    padding: 1em;
+header {
+
+    padding: 10px;
     color: white;
-    background-color: black;
+    background-color: #1B5E20;
     clear: left;
     text-align: center;
+    font-family: monospace;
+    font-size: 16px;
 }
 
 nav {
@@ -18,13 +24,18 @@ nav {
     padding: 1em;
 }
 
-nav ul {
+nav Ol {
     list-style-type: none;
     padding: 0;
+    color: white;
+    font-size: 16px;
 }
 
-nav ul a {
+nav Ol a {
+  font-family: sans-serif;
     text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
 
 article {
@@ -32,4 +43,29 @@ article {
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
+    color: white;
+    font-size: 16px;
+}
+ul li{
+  color: white;
+  font-size: 16px;
+}
+form{
+  color: white;
+  font-size: 16px;
+}
+body{
+ font-family: 'Squada One';font-size: 22px;
+ background-color: #4CAF50;
+
+}
+footer{
+
+  padding: 10px;
+  color: white;
+  background-color: #1B5E20;
+  clear: left;
+  text-align: center;
+  font-family: monospace;
+  font-size: 16px;
 }
